@@ -72,11 +72,11 @@ nav ul li {
     border-bottom: 2px solid #0072ce;
 
 }
-#takes-two .img-full-screen{
+#new-releases .img-full-screen{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 
 }
-#takes-two .info-text img{
+#new-releases .info-text img{
     width: 60%;
 }
 
