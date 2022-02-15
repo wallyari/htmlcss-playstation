@@ -10,3 +10,13 @@ body{
     height: 40px;
     width: 80px;
 }
+nav{
+    height: 80px;
+}
+
+
+.accedi-btn{
+    background-color: #363636;
+    border-radius: 20px;
+    vertical-align: middle;
+}
