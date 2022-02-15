@@ -14,9 +14,52 @@ nav{
     height: 80px;
 }
 
+.img-full-screen{
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    background-repeat: no-repeat;
+}
 
-.accedi-btn{
+.my-btn{
     background-color: #363636;
     border-radius: 20px;
     vertical-align: middle;
 }
+.my-btn-red {
+    display: inline-block;
+    width: auto;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.ms-fs-40{
+    font-size: 40px;
+}
+.img-infobox{
+    height: 680px;
+    display: flex;
+    align-items: flex-end;
+}
+.my-red-play{
+    background-color: #cd3d0f;
+} 
+#jumbotron .img-full-screen{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+}
+
+#cards img{
+    width: 80%;
+}
+#cards .desk-icon img{
+    border-radius: 15px;
+    padding: 3px;
+}
+
+#card .desk-icon{
+    width: 100%;
+  
+}
+
+
