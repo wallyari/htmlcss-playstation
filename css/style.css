@@ -13,6 +13,10 @@ body{
 nav{
     height: 80px;
 }
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
 
 .img-full-screen{
     background-size: cover;
@@ -52,17 +56,24 @@ nav{
 }
 
 #card .desk-icon,
-.console img
+.console img,
+.console-device img
 {
     width: 100%;  
 }
-
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-}
-
 .blue{
     background-color: #2d64e6;
 }
+.opacity{
+    opacity: 0.5;
+}
+
+.blue-border-bottom{
+    border-bottom: 2px solid #0072ce;
+
+}
+
+
+
+
 
