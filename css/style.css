@@ -25,13 +25,7 @@ nav{
     background-color: #363636;
     border-radius: 20px;
     vertical-align: middle;
-}
-.my-btn-red {
     display: inline-block;
-    width: auto;
-    padding: 10px 15px;
-    border-radius: 30px;
-    cursor: pointer;
 }
 
 .ms-fs-40{
@@ -57,13 +51,18 @@ nav{
     padding: 3px;
 }
 
-#card .desk-icon{
+#card .desk-icon,
+.console img
+{
     width: 100%;  
 }
-
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
+}
+
+.blue{
+    background-color: #2d64e6;
 }
 
