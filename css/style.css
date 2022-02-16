@@ -59,7 +59,7 @@ nav{
     padding: 3px;
 }
 
-
+#playstation-plus .side-img,
 .releases .desk-icon img,
 .console img,
 .console-device img
@@ -81,14 +81,22 @@ nav{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 
 }
-#new-releases .info-text img{
+#new-releases .info-text img,
+#playstation-plus .logo-plus img
+{
     width: 60%;
 }
 .lightblue{
     background-color: #d9dadc;
 }
 
+.play-plus-infobox{
+    display: flex;
+    align-items: center;
+}
 
-
+#playstation-plus{
+    background-color:#bebcbb;
+}
 
 
