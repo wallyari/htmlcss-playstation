@@ -111,4 +111,22 @@ nav{
 .wmax-800 {
     max-width: 800px;
 }
+footer{
+    background-color: #00439c;
+}
 
+footer .logo-play{
+    min-width: 100px;
+    display: block;
+
+}
+footer .globe{
+    max-width: 20px;
+}
+footer li{
+    list-style: none;
+}
+footer li>a{
+    text-decoration: none;
+    color: white;
+}
