@@ -32,7 +32,7 @@ nav{
     border-radius: 20px;
     vertical-align: middle;
     display: inline-block;
-    
+
 }
 
 .ms-fs-40{
@@ -84,7 +84,9 @@ nav{
 #new-releases .info-text img{
     width: 60%;
 }
-
+.lightblue{
+    background-color: #d9dadc;
+}
 
 
 
