@@ -82,6 +82,7 @@ nav{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 
 }
+#playstation-now .logo-now img,
 #new-releases .info-text img,
 #playstation-plus .logo-plus img
 {
@@ -90,7 +91,7 @@ nav{
 .lightblue{
     background-color: #d9dadc;
 }
-
+.playplus-info,
 .play-plus-infobox{
     display: flex;
     align-items: center;
@@ -98,5 +99,9 @@ nav{
 
 #playstation-plus{
     background-color:#bebcbb;
+}
+#playstation-now {
+    background-color: #161c3b;
+    color: white;
 }
 
