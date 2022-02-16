@@ -108,5 +108,7 @@ nav{
     color: white;
 }
 
-
+.wmax-800 {
+    max-width: 800px;
+}
 
