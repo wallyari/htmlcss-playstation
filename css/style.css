@@ -59,6 +59,7 @@ nav{
     padding: 3px;
 }
 
+#discounts .desk-sconti img,
 #playstation-plus .side-img,
 .releases .desk-icon img,
 .console img,
@@ -98,5 +99,4 @@ nav{
 #playstation-plus{
     background-color:#bebcbb;
 }
-
 
