@@ -24,6 +24,7 @@ nav{
     background-position: center;
     height: 670px;
     background-repeat: no-repeat;
+    
 }
 
 .my-btn{
@@ -46,6 +47,7 @@ nav{
 } 
 #jumbotron .img-full-screen{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+
 }
 
 #cards img{
@@ -57,7 +59,7 @@ nav{
 }
 
 
-.releases .desk_icon img,
+.releases .desk-icon img,
 .console img,
 .console-device img
 {
