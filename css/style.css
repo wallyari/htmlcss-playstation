@@ -13,10 +13,11 @@ body{
 nav{
     height: 80px;
 }
-nav ul li {
+/* nav ul li {
     list-style-type: none;
     display: inline-block;
-}
+    
+} */
 
 .img-full-screen{
     background-size: cover;
@@ -55,7 +56,8 @@ nav ul li {
     padding: 3px;
 }
 
-#card .desk-icon,
+
+.releases .desk_icon img,
 .console img,
 .console-device img
 {
