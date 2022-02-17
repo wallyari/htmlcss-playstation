@@ -156,6 +156,15 @@ div.hover-border:hover{
     outline: 2px solid black;
     outline-offset: -5px;
 }
+div.hover-border.blue:hover{
+    outline: 2px solid white;
+    outline-offset: -5px;
+}
+#playstation-plus div.my-btn:hover,
+#playstation-now div.my-btn:hover{
+    outline: 2px solid lightgrey;
+    outline-offset: -5px;
+}
 .my-btn-accedi:hover{
     background-color: grey;
 }
@@ -173,10 +182,22 @@ nav .navbar-nav li a:hover {
     top: -10px;
 }
 
-div.blue:hover{
-    background-color: grey;
-}
-
 .console-device img:hover{
     opacity: 1;
+}
+
+
+
+.releases .desk-icon img:hover{
+    top: -10px;
+}
+
+
+#social img {
+    transition: all var(--default-transition-duration);
+}
+  
+#social img:hover {
+    transform: scale(1.02);
+    box-shadow: var(--default-box-shadow);
 }
