@@ -188,9 +188,7 @@ nav .navbar-nav li a:hover {
 
 
 
-/* .releases .desk-icon img:hover{
-    top: -10px;
-} */
+
 
 
 #social img {
@@ -207,4 +205,9 @@ nav .navbar-nav li a:hover {
     transform: scale(1.02);
     box-shadow: var(--default-box-shadow);
 
+}
+
+.releases .desk-icon img:hover{
+    transform: scale(1.02);
+    box-shadow: var(--default-box-shadow);
 }
