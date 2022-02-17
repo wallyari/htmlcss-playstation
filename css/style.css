@@ -134,3 +134,8 @@ footer li>a{
 footer .logo-sony{
     width: 150px;
 }
+
+.my-chevron {
+    height: 0.7rem;
+    margin-left: 0.3rem;
+  }
