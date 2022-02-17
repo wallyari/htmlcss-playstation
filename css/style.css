@@ -53,13 +53,17 @@ nav{
     background-image: url(../img/jumbo-bg.png);
 
 }
-#jumbotron .info-text img,
-#cards img{
+#jumbotron .info-text img
+{
     width: 80%;
 }
+
 #cards .desk-icon img{
     border-radius: 15px;
     padding: 3px;
+}
+.my-active img{
+    border: 2px solid #0072ce;
 }
 
 #social .box-social img,
