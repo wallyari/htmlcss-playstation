@@ -1,6 +1,40 @@
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav{
+    height: 80px;
+}
+
+footer{
+    background-color: #00439c;
+}
+
+footer .logo-play{
+    min-width: 100px;
+    display: block;
+
+}
+
+footer .globe{
+    max-width: 20px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer li>a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .logo-sony{
+    width: 150px;
+}
+
+/* CLASSES */
 .header-top{
     height: 40px;
     background-color: black;
@@ -10,16 +44,12 @@ body{
     height: 40px;
     width: 80px;
 }
-nav{
-    height: 80px;
-}
 
 .img-full-screen{
     background-size: cover;
     background-position: center;
     height: 670px;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 
 .my-btn{
@@ -29,31 +59,68 @@ nav{
     display: inline-block;
     padding:8px 13px;
     cursor: pointer;
-
 }
 .my-btn-accedi{
     background-color: #363636;
     border-radius: 20px;
     vertical-align: middle;
-   
 
 }
 
 .ms-fs-40{
     font-size: 40px;
 }
+
 .img-infobox{
     height: 680px;
     display: flex;
     align-items: flex-end;
 }
+
 .my-red-play{
     background-color: #cd3d0f;
+}
+
+.my-active img{
+    border: 2px solid #0072ce;
 } 
-#jumbotron .img-full-screen{
-    background-image: url(../img/jumbo-bg.png);
+
+.blue{
+    background-color: #2d64e6;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+.blue-border-bottom{
+    border-bottom: 2px solid #0072ce;
 
 }
+.lightblue{
+    background-color: #d9dadc;
+}
+
+.playplus-info,
+.play-plus-infobox{
+    display: flex;
+    align-items: center;
+}
+
+.wmax-800 {
+    max-width: 800px;
+}
+.my-chevron {
+    height: 0.7rem;
+    margin-left: 0.3rem;
+}
+
+/* ID */
+
+#jumbotron .img-full-screen{
+    background-image: url(../img/jumbo-bg.png);
+}
+
 #jumbotron .info-text img
 {
     width: 80%;
@@ -62,9 +129,6 @@ nav{
 #cards .desk-icon img{
     border-radius: 15px;
     padding: 3px;
-}
-.my-active img{
-    border: 2px solid #0072ce;
 }
 
 #social .box-social img,
@@ -78,20 +142,8 @@ nav{
     width: 100%;  
 }
 
-.blue{
-    background-color: #2d64e6;
-}
-.opacity{
-    opacity: 0.5;
-}
-
-.blue-border-bottom{
-    border-bottom: 2px solid #0072ce;
-
-}
 #new-releases .img-full-screen{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-
 }
 
 #playstation-now .logo-now img,
@@ -99,16 +151,6 @@ nav{
 #playstation-plus .logo-plus img
 {
     width: 60%;
-}
-
-.lightblue{
-    background-color: #d9dadc;
-}
-
-.playplus-info,
-.play-plus-infobox{
-    display: flex;
-    align-items: center;
 }
 
 #playstation-plus{
@@ -119,58 +161,30 @@ nav{
     color: white;
 }
 
-.wmax-800 {
-    max-width: 800px;
-}
-footer{
-    background-color: #00439c;
+
+/* HOVER*/
+nav .navbar-nav li a:hover {   
+    color: #2d64e6 !important;
 }
 
-footer .logo-play{
-    min-width: 100px;
-    display: block;
-
-}
-footer .globe{
-    max-width: 20px;
-}
-footer li{
-    list-style: none;
-}
-footer li>a{
-    text-decoration: none;
-    color: white;
-}
-
-footer .logo-sony{
-    width: 150px;
-}
-
-.my-chevron {
-    height: 0.7rem;
-    margin-left: 0.3rem;
-}
-
-/*TEST HOVER*/
 div.hover-border:hover{
     outline: 2px solid black;
     outline-offset: -5px;
 }
+
 div.hover-border.blue:hover{
     outline: 2px solid white;
     outline-offset: -5px;
 }
-#playstation-plus div.my-btn:hover,
-#playstation-now div.my-btn:hover{
-    outline: 2px solid lightgrey;
-    outline-offset: -5px;
-}
+
 .my-btn-accedi:hover{
     background-color: grey;
 }
 
-nav .navbar-nav li a:hover {   
-    color: #2d64e6 !important;
+
+.releases .desk-icon img:hover{
+    transform: scale(1.02);
+    box-shadow: var(--default-box-shadow);
 }
 
 .desk-icon{
@@ -186,15 +200,15 @@ nav .navbar-nav li a:hover {
     opacity: 1;
 }
 
-
-
-
-
+#playstation-plus div.my-btn:hover,
+#playstation-now div.my-btn:hover{
+    outline: 2px solid lightgrey;
+    outline-offset: -5px;
+}
 
 #social img {
     transition: all var(--default-transition-duration);
-}
-  
+}  
 
 #social img:hover {
     transform: scale(1.02);
@@ -202,12 +216,6 @@ nav .navbar-nav li a:hover {
 }
 
 #discounts img:hover{
-    transform: scale(1.02);
-    box-shadow: var(--default-box-shadow);
-
-}
-
-.releases .desk-icon img:hover{
     transform: scale(1.02);
     box-shadow: var(--default-box-shadow);
 }
