@@ -188,16 +188,23 @@ nav .navbar-nav li a:hover {
 
 
 
-.releases .desk-icon img:hover{
+/* .releases .desk-icon img:hover{
     top: -10px;
-}
+} */
 
 
 #social img {
     transition: all var(--default-transition-duration);
 }
   
+
 #social img:hover {
     transform: scale(1.02);
     box-shadow: var(--default-box-shadow);
+}
+
+#discounts img:hover{
+    transform: scale(1.02);
+    box-shadow: var(--default-box-shadow);
+
 }
