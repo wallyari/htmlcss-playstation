@@ -158,3 +158,8 @@ div.hover-border:hover{
 .my-btn-accedi:hover{
     background-color: #2d64e6;
 }
+
+nav .navbar-nav li a:hover {   
+    color: #2d64e6 !important;
+  }
+
