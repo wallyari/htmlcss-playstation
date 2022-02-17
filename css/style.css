@@ -154,5 +154,7 @@ footer .logo-sony{
 div.hover-border:hover{
     outline: 2px solid black;
     outline-offset: -5px;
-
+}
+.my-btn-accedi:hover{
+    background-color: #2d64e6;
 }
