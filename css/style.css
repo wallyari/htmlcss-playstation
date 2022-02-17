@@ -13,11 +13,6 @@ body{
 nav{
     height: 80px;
 }
-/* nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    
-} */
 
 .img-full-screen{
     background-size: cover;
@@ -32,6 +27,14 @@ nav{
     border-radius: 20px;
     vertical-align: middle;
     display: inline-block;
+    padding:8px 13px;
+    cursor: pointer;
+
+}
+.my-btn-accedi{
+    background-color: #363636;
+    border-radius: 20px;
+    vertical-align: middle;
 
 }
 
@@ -141,4 +144,11 @@ footer .logo-sony{
 .my-chevron {
     height: 0.7rem;
     margin-left: 0.3rem;
+}
+
+/*TEST HOVER*/
+div.hover-border:hover{
+    outline: 2px solid black;
+    outline-offset: -5px;
+
 }
