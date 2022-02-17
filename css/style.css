@@ -177,3 +177,6 @@ div.blue:hover{
     background-color: grey;
 }
 
+.console-device img:hover{
+    opacity: 1;
+}
