@@ -173,3 +173,7 @@ nav .navbar-nav li a:hover {
     top: -10px;
 }
 
+div.blue:hover{
+    background-color: grey;
+}
+
